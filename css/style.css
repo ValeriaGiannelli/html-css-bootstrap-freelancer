@@ -59,10 +59,36 @@
 
 /* MAIN */
 
+/********* sezione portfolio ******/
 /* dettaglio card */
+#portfolio{
+    padding-bottom: 40px;
+}
 .card{
 
     /* DEBUG */
     height: 250px;
     background-color: blueviolet;
+}
+
+/* ------------------------------ */
+
+
+/********** sezione About *********/
+#about{
+    padding-bottom: 20px;
+    background-color: rgb(55 189 156);
+}
+.text-about{
+
+    /*  DEBUG */
+    height: 150px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.btn{
+
+    /* debug */
+    background-color: aquamarine;
 }
