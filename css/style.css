@@ -97,10 +97,10 @@
 
 
 /********* sezione Contact Me  ********/
-.md_container{
-    width: 80%;
-    margin: 0 auto;
+#contact{
+    padding-bottom: 20px;
 }
+
 .fill-message{
 
     /* DEBUG */
@@ -115,4 +115,25 @@
     height: 150px;
     background-color: brown;
     border: 1px solid black;
+}
+
+
+/* FOOTER */
+/* sezione in alto */
+#find-us{
+    background-color: rgb(62 82 109);
+    padding: 70px 0;
+}
+
+.location, .social, .more-info{
+
+    /* DEBUG */
+    background-color: brown;
+    border: 1PX SOLID black;
+    height: 150px;
+}
+
+/* sezione in basso */
+#copyright{
+    background-color: rgb(47 61 80);
 }
