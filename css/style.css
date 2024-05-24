@@ -52,4 +52,17 @@
 /* sezione jumbo */
 #jumbo{
     background-color: rgb(55 189 156);
+    margin: 90px 0 40px;
+
+}
+
+
+/* MAIN */
+
+/* dettaglio card */
+.card{
+
+    /* DEBUG */
+    height: 250px;
+    background-color: blueviolet;
 }
