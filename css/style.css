@@ -108,6 +108,7 @@ h1{
     color: var(--color-text-odd);
     font-weight: 700;
     padding-bottom: var(--padding-up-down);
+    font-size: 40px;
 }
 
 /* regole per linea di stacco */
@@ -167,11 +168,27 @@ h1{
 #portfolio{
     padding-bottom: 40px;
 }
-.card{
 
-    /* DEBUG */
-    height: 250px;
-    background-color: blueviolet;
+.even{
+    color: var(--color-even);
+    font-size: 30px;
+    padding-bottom: var(--padding-up-down);
+    font-weight: 600;
+}
+
+
+.interlinea.even .line{
+    background-color: var(--color-even);
+}
+
+.interlinea.even i{
+    color: var(--color-even);
+}
+
+
+.box img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* ------------------------------ */
@@ -182,6 +199,23 @@ h1{
     padding-bottom: 20px;
     background-color: rgb(55 189 156);
 }
+
+.odd{
+    color: var(--color-text-odd);
+    font-size: 30px;
+    padding-bottom: var(--padding-up-down);
+    font-weight: 600;
+}
+
+.interlinea.odd .line{
+    background-color: var(--color-text-odd);
+}
+
+.interlinea.odd i{
+    color: var(--color-text-odd);
+}
+
+
 .text-about{
 
     /*  DEBUG */
