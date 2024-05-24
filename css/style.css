@@ -2,8 +2,8 @@
 /* HEADER */
 
 /* sfondo menu navigazione */
-.bg-dark{
-    background-color: rgb(47 61 80);
+.bg-header{
+    background-color: rgb(44, 62, 80);
     height: 90px;
     width: 100%;
     position: fixed;
@@ -43,6 +43,7 @@
     gap: 30px;
     list-style: none;
     display: none;
+    margin-bottom: 0;
 }
 
 .nav-menu a{
@@ -53,12 +54,24 @@
 
 /******** RESPONSIVE MENU  *********/
 @media all and (min-width:1121px) {
+    .logo{
+        font-size: 30px;
+    }
+
     .nav-menu{
         display: flex;
     }
 
     .hamburger-menu{
         display: none;
+    }
+
+    .nav-menu a{
+        font-size: 18px;
+    }
+
+    #jumbo{
+        padding-top: 30px;
     }
     
 }
@@ -70,11 +83,12 @@
 
 /* immagine profilo DEBUG */
 .img-prof{
+    padding: 30px 0;
+}
 
-    /* DEBUG */
-    height: 150px;
-    background-color: aquamarine;
-    border: 1px solid black;
+
+.img-prof img{
+    max-width: 290px;
 }
 
 /* contenuto testuale DEBUG */
