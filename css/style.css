@@ -191,6 +191,20 @@ h1{
     border-radius: 10px;
 }
 
+
+
+/******** RESPONSIVE PORTFOLIO  *********/
+@media all and (min-width:1121px) {
+    .even{
+        font-size: 60px;
+    }
+   
+}
+
+
+
+/***********************************/
+
 /* ------------------------------ */
 
 
