@@ -92,3 +92,27 @@
     /* debug */
     background-color: aquamarine;
 }
+
+/* ----------------------------- */
+
+
+/********* sezione Contact Me  ********/
+.md_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.fill-message{
+
+    /* DEBUG */
+    height: 50px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.fill-message_xl{
+
+    /* DEBUG */
+    height: 150px;
+    background-color: brown;
+    border: 1px solid black;
+}
