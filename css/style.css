@@ -1,0 +1,49 @@
+
+/* HEADER */
+
+/* sfondo menu navigazione */
+.bg-dark{
+    background-color: rgb(47 61 80);
+    height: 90px;
+}
+
+/* logo */
+.logo{
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* hamburger menu */
+.hamburger-menu{
+    display: flex;
+    align-items: center;
+    /* DFEBUG */
+    background-color: aquamarine;
+    height: 45px;
+}
+
+/* immagine profilo DEBUG */
+.img-prof{
+
+    /* DEBUG */
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+/* contenuto testuale DEBUG */
+.titol, .profession{
+
+    /* DEBUG */
+    height: 80px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+#jumbo{
+    background-color: rgb(55 189 156);
+}
