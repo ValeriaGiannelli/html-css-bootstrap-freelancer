@@ -24,12 +24,49 @@
 
 /* hamburger menu */
 .hamburger-menu{
+    max-width: 45px;
     display: flex;
     align-items: center;
-    /* DFEBUG */
-    background-color: aquamarine;
-    height: 45px;
+    justify-content: center;
+    color: gray;
+    font-size: 30px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 12px;
 }
+
+/* menu esteso */
+.nav-menu{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    list-style: none;
+    display: none;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/******** RESPONSIVE MENU  *********/
+@media all and (min-width:1121px) {
+    .nav-menu{
+        display: flex;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+    
+}
+
+
+
+/***********************************/
+
 
 /* immagine profilo DEBUG */
 .img-prof{
