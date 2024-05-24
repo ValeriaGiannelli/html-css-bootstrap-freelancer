@@ -1,9 +1,17 @@
 
+/* regole generali */
+:root{
+    --color-odd:rgb(55 189 156);
+    --padding-up-down:20px;
+    --color-text-odd:white;
+    --color-even:rgb(44, 62, 80);
+}
+
 /* HEADER */
 
 /* sfondo menu navigazione */
 .bg-header{
-    background-color: rgb(44, 62, 80);
+    background-color: var(--color-even);
     height: 90px;
     width: 100%;
     position: fixed;
@@ -79,9 +87,13 @@
 
 
 /***********************************/
+/* sezione jumbo */
+#jumbo{
+    background-color: var(--color-odd);
+    margin: 90px 0 40px;
+}
 
-
-/* immagine profilo DEBUG */
+/* immagine profilo */
 .img-prof{
     padding: 30px 0;
 }
@@ -91,21 +103,61 @@
     max-width: 290px;
 }
 
-/* contenuto testuale DEBUG */
-.titol, .profession{
 
-    /* DEBUG */
-    height: 80px;
-    background-color: blue;
-    border: 1px solid black;
+h1{
+    color: var(--color-text-odd);
+    font-weight: 700;
+    padding-bottom: var(--padding-up-down);
 }
 
-/* sezione jumbo */
-#jumbo{
-    background-color: rgb(55 189 156);
-    margin: 90px 0 40px;
-
+/* regole per linea di stacco */
+.interlinea{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.interlinea i{
+    font-size: 35px;
+    color: var(--color-text-odd);
+}
+
+.line{
+    padding: 2px;
+    background-color: var(--color-text-odd);
+    width: 40%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* elòenco professioni */
+.profession{
+    padding: var(--padding-up-down);
+    color: var(--color-text-odd);
+    font-size: 20px;
+}
+
+/******** RESPONSIVE JUMBO  *********/
+@media all and (min-width:1121px) {
+    h1{
+        font-size: 70px;
+    }
+
+    .profession{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+/***********************************/
+
+
+
+
 
 
 /* MAIN */
