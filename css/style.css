@@ -54,11 +54,6 @@ header .nav-link:hover{
     color: var(--color-odd);
 }
 
-/* header .navbar-toggler-icon{
-    background-image: url(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>);
-} */
-
-
 
 /******** RESPONSIVE MENU  *********/
 @media all and (min-width:1121px) {
@@ -174,6 +169,44 @@ h1{
     border-radius: 10px;
 }
 
+.ms_card{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-odd);
+    opacity: 0.5;
+    border-radius: 10px;
+    display: none;
+}
+
+
+.ms_card i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    display: none;
+}
+
+.ms_card:hover{
+    cursor: pointer;
+}
+
+.ms_card:hover i{
+    display: inline-block;
+}
+
+.ms_card:hover .overlay{
+    display: block;
+}
 
 
 /******** RESPONSIVE PORTFOLIO  *********/
@@ -233,6 +266,11 @@ h1{
 
 #about .btn i{
     margin-right: 5px;
+}
+
+#about .btn:hover{
+    background-color: var(--color-text-odd);
+    color: black;
 }
 
 /* ----------------------------- */
