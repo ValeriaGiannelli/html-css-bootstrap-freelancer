@@ -184,15 +184,20 @@ h1{
 
 /***********************************/
 
+
+
+
+
 /* ------------------------------ */
 
 
 /********** sezione About *********/
 #about{
-    padding-bottom: 20px;
+    padding: 50px 0 20px;
     background-color: rgb(55 189 156);
 }
 
+/* titolo della sezioni */
 .odd{
     color: var(--color-text-odd);
     font-size: 30px;
@@ -208,19 +213,22 @@ h1{
     color: var(--color-text-odd);
 }
 
-
+/* caratteristiche del testo */
 .text-about{
-
-    /*  DEBUG */
-    height: 150px;
-    background-color: brown;
-    border: 1px solid black;
+    color: var(--color-text-odd);
+    font-size: 20px;
 }
 
-.btn{
+/* modifica del bottone BS */
+#about .btn{
+    color: var(--color-text-odd);
+    border-color: var(--color-text-odd);
+    background-color: transparent;
+    font-size: 20px;
+}
 
-    /* debug */
-    background-color: aquamarine;
+#about .btn i{
+    margin-right: 5px;
 }
 
 /* ----------------------------- */
