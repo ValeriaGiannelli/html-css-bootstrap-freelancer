@@ -58,21 +58,6 @@ header .navbar-toggler{
 
 /******** RESPONSIVE MENU  *********/
 @media all and (min-width:1121px) {
-    .logo{
-        font-size: 30px;
-    }
-
-    .nav-menu{
-        display: flex;
-    }
-
-    .hamburger-menu{
-        display: none;
-    }
-
-    .nav-menu a{
-        font-size: 18px;
-    }
 
     #jumbo{
         padding-top: 30px;
@@ -80,9 +65,9 @@ header .navbar-toggler{
     
 }
 
-
-
 /***********************************/
+
+
 /* sezione jumbo */
 #jumbo{
     background-color: var(--color-odd);
@@ -181,9 +166,7 @@ h1{
     color: var(--color-even);
 }
 
-
-.box img{
-    width: 100%;
+#portfolio .card-img{
     border-radius: 10px;
 }
 
