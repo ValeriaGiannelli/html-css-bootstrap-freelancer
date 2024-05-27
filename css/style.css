@@ -7,6 +7,10 @@
     --color-even:rgb(44, 62, 80);
 }
 
+body{
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
 /* HEADER */
 
 /* sfondo menu navigazione */
@@ -20,38 +24,20 @@
     z-index: 90;
 }
 
-/* logo */
-.logo{
+/* altezza menu navigazione */
+header .navbar{
     height: 90px;
+}
+
+/* colore link menu */
+header .navbar a, header .navbar a.nav-link.active{
     color: white;
-    display: flex;
-    align-items: center;
+}
+
+/* grandezza logo */
+header .navbar-brand{
+    font-size: 24px;
     font-weight: 700;
-    font-size: 20px;
-}
-
-/* hamburger menu */
-.hamburger-menu{
-    max-width: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: gray;
-    font-size: 30px;
-    padding: 5px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    margin-right: 12px;
-}
-
-/* menu esteso */
-.nav-menu{
-    display: flex;
-    justify-content: end;
-    gap: 30px;
-    list-style: none;
-    display: none;
-    margin-bottom: 0;
 }
 
 .nav-menu a{
@@ -59,6 +45,16 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+header .navbar-toggler{
+    border-color: white;
+}
+
+/* header .navbar-toggler-icon{
+    background-image: url(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>);
+} */
+
+
 
 /******** RESPONSIVE MENU  *********/
 @media all and (min-width:1121px) {
